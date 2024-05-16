@@ -5,7 +5,7 @@ public class Fattorino extends Dipendente {
 	private int numConsegne;
 	private double pagaBase = 5;
 
-    public Fattorino() {
+    public Fattorino(String nome) {
         super(nome);
         setRuolo("Fattorino");
     }
